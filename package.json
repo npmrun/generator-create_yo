@@ -1,6 +1,6 @@
 {
   "name": "@noderun/generator-create_yo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "```\r npm install -g yo\r npm install -g @noderun/generator-create_yo\r yo create_yo --who=@noderun\r ```",
   "main": "index.js",
   "scripts": {
