@@ -3,7 +3,7 @@
 ```
 npm install -g yo
 npm install -g <%= who %>/generator-create_<%= name %>
-yo create_<%= name %>
+yo <%= who %>/create_<%= name %>
 ```
 
 源文件放在`templates`中，会自动打包到目标文件夹
