@@ -13,7 +13,7 @@ module.exports = (yo) => {
     };
 
     // 设置目标根路径，之后就不用改了，就一直是这个目标路径了
-    this.destinationRoot(this._data.projectName);
+    this.destinationRoot("generator-create_"+this._data.projectName);
     const placeholder = {
       ...this.answers,
       who:this._data.who
