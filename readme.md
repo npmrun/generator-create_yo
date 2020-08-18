@@ -1,7 +1,7 @@
 ```
 npm install -g yo
 npm install -g @noderun/generator-create_yo
-yo create_yo --who=@noderun
+yo @noderun/create_yo --who=@noderun
 ```
 
 ```
