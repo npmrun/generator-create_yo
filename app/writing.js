@@ -19,8 +19,8 @@ module.exports = (yo) => {
       who:this._data.who
     };
     this.log(placeholder)
-    copyTpl(".gitignore", ".gitignore",placeholder);
-    copyTpl(".yo-rc.json", ".yo-rc.json",placeholder);
-    copyTpl("", "", placeholder);
+    copyTpl("point/_gitignore", ".gitignore",placeholder);
+    copyTpl("point/_yo-rc.json", ".yo-rc.json",placeholder);
+    copyTpl("root", "", placeholder);
   }.apply(yo);
 };
